@@ -6,9 +6,12 @@ namespace ECommerce.Core.Entities
 
         // Navigation Property
         
+        
 
 
         
+
+        public int ProductId { get; set; } // review again
         public ICollection<Product> Products { get; set; }
     }
 }
